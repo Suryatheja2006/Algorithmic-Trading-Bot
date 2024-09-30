@@ -38,7 +38,7 @@ The bot uses historical stock data from Yahoo Finance and performs backtesting o
 
 ## Project Structure
 ```bash
-trading-bot/
+Algorithmic_Trading_Bot/
 │
 ├── README.md             # Project description and instructions
 ├── trading_bot.py        # Main script with trading logic
