@@ -42,7 +42,6 @@ trading-bot/
 │
 ├── README.md             # Project description and instructions
 ├── trading_bot.py        # Main script with trading logic
-├── requirements.txt      # Dependencies required to run the project
 └── images/               # Folder to store visualizations
     └── trading_signals.png  # Sample image of buy/sell signals
 
