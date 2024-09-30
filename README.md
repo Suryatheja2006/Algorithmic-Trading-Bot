@@ -19,7 +19,11 @@ The bot uses historical stock data from Yahoo Finance and performs backtesting o
    git clone https://github.com/yourusername/trading-bot.git
    cd trading-bot
 2. **Install Dependencies:**This project requires Python 3.7+ and the following dependencies:
-     yfinance
-     matplotlib
-     numpy
+     yfinance,
+     matplotlib,
+     numpy. Install them via:
+   ```bash
+   pip install yfinance
+   pip install matplotlib
+   pip install numpy
    
