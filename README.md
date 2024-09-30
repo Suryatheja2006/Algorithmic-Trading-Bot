@@ -33,5 +33,16 @@ The bot uses historical stock data from Yahoo Finance and performs backtesting o
    ```bash
    python3 tradin_bot.py
 2. **Parameters:** You can specify different stock symbols and date ranges within the script. By default, it fetches Apple stock (AAPL) data from 2020-01-01 to 2023-01-01. Modify the stock_symbol, start_date, and end_date variables in the script as per your needs.
-3. **Output:**Trading signals: Buy and sell signals are plotted against the stock's closing price.
+3. **Output:** Trading signals: Buy and sell signals are plotted against the stock's closing price.
    Performance Metrics: Displays total returns and the Sharpe ratio in the console
+
+## Project Structure
+```bash
+trading-bot/
+│
+├── README.md             # Project description and instructions
+├── trading_bot.py        # Main script with trading logic
+├── requirements.txt      # Dependencies required to run the project
+└── images/               # Folder to store visualizations
+    └── trading_signals.png  # Sample image of buy/sell signals
+
